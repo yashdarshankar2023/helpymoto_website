@@ -8,11 +8,9 @@ const HireDevloper=()=>{
 
 
 
-const {name,email,phone}=req.body;
+const {name,type,problem,location:{lat,long}}=req.body;
 const hire=new Hire({
-  name,
-  email, 
-  phone
+  name,type,problem,location:{lat,long}
 })
 
 hire.save();
