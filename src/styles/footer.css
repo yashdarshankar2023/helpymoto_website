@@ -1,0 +1,166 @@
+.footer{
+    width: 100%;
+    background-color: #5D5FEF ;
+    background-image: linear-gradient(#5D5FEF,#999AF5);
+    height: 600px;
+    color: white;
+    
+}
+.footer_container{
+    display: flex;
+}
+.footer_text1{
+    width: 35%;
+    margin-left: 5%;
+    padding-top: 20px;
+   height: 50px;
+}
+/* .footer_text1 h1{
+    font-size: xx-large;
+} */
+.footer_text1 h3{
+    
+    width: 350px;
+    margin-left: 5%;
+    font-size: large;
+    
+
+}
+.footer_text2 {
+    width: 15%;
+    margin-left: 2%;
+    padding-top: 20px;
+
+}
+
+.footer_text3{
+    width: 15%;
+    margin-left: 2%;
+    padding-top: 20px;
+
+}
+.footer_text4{
+    width: 35%;
+    margin-left: 2%;
+    padding-top: 20px;
+    
+
+}
+.footer_text4 h3{
+    font-size: large;
+}
+.input_button input{
+    border-radius: 10px;
+    height: 35px;
+    width: 250px;
+
+}
+/* .input_button button{
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    background-image: linear-gradient(to right,#7D7FF2,#B5B6F8);
+    border: none;
+    
+
+} */
+.footer_text5{
+    width: 70%;
+    margin-left: 5%;
+
+    text-align: left;
+
+}
+.footer_text5 h2{
+    margin-left: 5%;
+}
+.footer_text5 h3{
+    width: 300px;
+    font-size: large;
+}
+#footer_btn{
+    background-color: #B5B6F8;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid 3px #5D5FEF;
+}
+
+
+@media only screen and (max-width: 420px) {
+    .footer{
+        width: 100%;
+        background-color: #5D5FEF ;
+        background-image: linear-gradient(#5D5FEF,#999AF5);
+        height: 200px;
+        color: white;
+        
+    }
+    .footer_container{
+        display: flex;
+    }
+    .footer_text1{
+        width: 25%;
+        margin-left: 5%;
+        padding-top: 20px;
+        font-size: 3px;
+    }
+    .footer_text1 h3{
+        
+        width: 100px;
+        margin-left: 5%;
+        
+    
+    }
+    .footer_text2 {
+        width: 15%;
+        margin-left: 5%;
+        padding-top: 20px;
+        font-size: 3px;
+    }
+    .footer_text3{
+        width: 15%;
+        margin-left: 2%;
+        padding-top: 20px;
+        font-size: 3px;
+    
+    }
+    .footer_text4{
+        width: 35%;
+        margin-left: 2%;
+        padding-top: 20px;
+        font-size: 3px;
+    
+    }
+    .input_button input{
+        border-radius: 10px;
+        height: 5px;
+        width: 40px;
+    
+    }
+    .input_button button{
+        border-radius: 10px;
+        height: 8px;
+        width: 9px;
+        font-size: 2px;
+        background-image: linear-gradient(to right,#7D7FF2,#B5B6F8);
+        border: none;
+        
+    
+    }
+    .footer_text5{
+        width: 70%;
+        margin-left: 5%;
+    
+        text-align: left;
+        font-size: 3px;
+    
+    }
+    .footer_text5 h2{
+        margin-left: 5%;
+    }
+    .footer_text5 h3{
+        width: 300px;
+    }
+
+}
