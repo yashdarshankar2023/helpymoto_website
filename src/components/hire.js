@@ -3,7 +3,7 @@ import "../styles/hire.css";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import axios from "axios";
-
+import { useNavigate } from "react-router-dom";
 const Hire = () => {
   const [fields, setFields] = useState(() => ({
     name: "",
@@ -14,6 +14,7 @@ const Hire = () => {
   const [error, setError] = useState(() => ({}));
 
   const firstUpdate = useRef(true);
+  const navigate = useNavigate();
   useEffect(() => {
     if (firstUpdate.current) {
       firstUpdate.current = false;
@@ -78,9 +79,12 @@ const Hire = () => {
   };
 
   const onSubmitHandler = (e) => {
-    e.preventDefault();
+    
     //
-    // navigate("/signup");
+    
+    e.preventDefault();
+    navigate("/mechaniclist");
+  
     if (errorValidationHandler()) {
       console.log(error);
     } else {

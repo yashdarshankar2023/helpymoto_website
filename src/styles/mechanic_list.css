@@ -1,0 +1,119 @@
+.mech_list_container {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-gap: 10px;
+    
+    padding: 10px;
+  }
+  
+  .mech_list_container > div {
+    /* background-color: gray; */
+    text-align: left;
+    padding: 20px 20px;
+    font-size: 15px;
+    height: 240px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #B5B6F8;
+    position: relative;
+    display: inline-block;
+  }
+  .mech_list_container > div > button{
+    background-color: #5D5FEF;
+    border-radius: 5px;
+    color: white;
+    margin-left: 70%;
+  }
+  /* .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  .mech_list_container > div:hover .dropdown-content {
+    display: block;
+  } */
+  .mech_list_hidden{
+    /* display: none; */
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    margin-top: 100px;
+    z-index: 1;
+
+  }
+  .content {
+    padding: 0 18px;
+    /* display: none; */
+    overflow: hidden;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    width: 30px;
+  }
+  .popup-box {
+    position: absolute;
+    background: #00000050;
+    width: 1500px;
+    height: 1000px;
+
+    top: 0;
+    left: 0;
+    z-index: 4;
+  }
+   
+  .box {
+    position: relative;
+    width: 700px;
+    /* margin: 0 auto; */
+    height: auto;
+    /* max-height: 700vh; */
+    margin-left: 30%;
+    margin-top: calc(100vh - 85vh - 20px);
+    background: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    border: 1px solid #999;
+    overflow: auto;
+  }
+   
+  .close-icon {
+    content: 'x';
+    cursor: pointer;
+    position: fixed;
+    right: calc(15% - 30px);
+    top: calc(100vh - 85vh - 33px);
+    background: #ededed;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #999;
+    font-size: 20px;
+  }
+  @media only screen and (max-width: 850px) {
+    .mech_list_container {
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-gap: 10px;
+        
+        padding: 10px;
+        
+      }
+
+  }
+  @media only screen and (max-width: 450px) {
+    .mech_list_container {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+        
+        padding: 10px;
+      }
+
+  }

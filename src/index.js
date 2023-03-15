@@ -27,6 +27,8 @@ import About from "./components/about"
 import Contact from "./components/contact"
 import Service from "./components/service"
 import Hire from "./components/hire"
+import Mechlist from './components/mechanic_list';
+import Mechprofile from "./components/Mechanical_profile"
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -54,6 +56,9 @@ export default function Index() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/service" element={<Service />} />
           <Route path="/hire" element={<Hire />} />
+          <Route path="/mechlist" element={<Mechlist />} />
+          <Route path="/mechprofile" element={<Mechprofile />} />
+          
           
           
           
