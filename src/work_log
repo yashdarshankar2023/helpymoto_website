@@ -1,0 +1,146 @@
+@media only screen and (max-width: 420px) {
+    .description {
+        width: 100%;
+
+        background-image: linear-gradient(to right, #7D7FF2, #c4c9FD);
+        height: 400px;
+        z-index: 3;
+        color: #5D5FeF;
+    }
+
+    .description_left {
+        width: 50%;
+        font-size: 50%;
+    }
+
+    .numbers {
+        background-color: #5D5FeF;
+        width: 90%;
+        /* margin-left: 5%; */
+        height: 90px;
+        z-index: 6;
+        position: relative;
+        top: 50px;
+        border-radius: 20px;
+        display: flex;
+        font-size: 50%;
+    }
+
+    .services {
+
+
+        height: 600px;
+        z-index: 3;
+        color: black;
+
+
+
+    }
+
+    .services h1 {
+        padding-top: 100px;
+    }
+
+    /* .cards {
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    .card {
+
+        box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 20%;
+        height: 100px;
+     
+        margin-top: 30px;
+        font-size: small;
+    } */
+
+    .numbers .num1 {
+        width: 20%;
+        color: white;
+        margin-left: 4%;
+        margin-top: 2%;
+    }
+
+    .num1 h2 {
+        display: flex;
+        margin-left: 20px;
+    }
+
+
+    .description button {
+        width: 50%;
+        color: #5D5FeF;
+        border-radius: 20px;
+        height: 50px;
+    }
+    .des_cards{
+        width: 90%;
+        display: grid;
+        margin-left:5%;
+        grid-template-columns: auto auto auto;
+        grid-gap: 5%;
+    }
+
+}
+
+/**/
+        /* <div className='cards_description'>
+          <div className='card'  onClick={togglePopup}>
+            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmMJ1BAv6dT7YfdXwYnQgelplMAlllSM7WTg&usqp=CAU'  />
+            Basic Service
+          </div>
+          <div className='card'>
+            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWq5_ohoKJZqLeCP5YRA-2nFM9fqIojyx2SQ&usqp=CAU' />
+            Comprehensive Service</div>
+          <div className='card'>
+            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSbKomBYLkSeD-Xl0159tcAx6Fu1lixWf9Gg&usqp=CAU' />
+            Standard Service</div>
+          <div className='card'>
+          
+            50 Point Service</div>
+            {isOpen && <Popup
+                content={<>
+                  <br/><br/>
+                  <div style={{border:"2px solid gray",width:"90%",marginLeft:"5%",height:"400px",display:"flex",padding:"40px"}}>
+                  <img src={Engine} alt="react logo" style={{width:"20%",marginLeft:"5%",marginRight:"5%",height:"90%",border:"2px solid gray"}}/>
+                  <div >
+                    <h2>Basic service</h2>
+                    <br/>
+                    <div style={{display:"flex"}}>
+                    <p style={{border:"1px solid gray",width:"fit-content",padding:"5px",borderRadius:"20px",margin:"5px"}}>•	Recommended once every 6 months</p>
+                    <p style={{border:"1px solid gray",width:"fit-content",padding:"5px",borderRadius:"20px",margin:"5px"}}>•	Oil change</p>
+                    <p style={{border:"1px solid gray",width:"fit-content",padding:"5px",borderRadius:"20px",margin:"5px"}}>•	Oil filter replacement</p>
+                    <p style={{border:"1px solid gray",width:"fit-content",padding:"5px",borderRadius:"20px",margin:"5px"}}>•	Tyre pressure and adjust</p>
+                    <p style={{border:"1px solid gray",width:"fit-content",padding:"5px",borderRadius:"20px",margin:"5px"}}>•	 Only 2,200/-</p>
+                    
+
+                    </div>
+                    <br/>
+                    <h4>FAQ</h4>
+                    <p><b>Q. When is the best time to get this service done?</b>
+</p>
+                    <p>A. We would suggest, before going for a long drive or if the car is not being used for a long time.</p>
+                    <div style={{display:"flex",marginLeft:"50%"}}>
+                    <button className='description_popup_btn'>Add to Cart</button>
+                    </div>
+                    
+                    
+                  </div>
+                  </div>
+                </>}
+                handleClose={togglePopup}
+
+
+            />}
+
+
+
+        </div> */
+
+
+/*new add to cart button*/
+        <br/> <br/>
+        <Button variant="primary" style={{marginLeft:"80%"}}>Add to cart</Button>

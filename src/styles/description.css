@@ -1,0 +1,267 @@
+
+
+
+.description {
+
+    background-image: linear-gradient(to right, #7D7FF2, #c4c9FD);
+    height: 600px;
+    z-index: 3;
+    color: #5D5FeF;
+
+    position: relative;
+
+
+
+}
+
+#home_description_btn {
+
+    margin-top: 20%;
+    width: 30%;
+    height: 60px;
+    border-radius: 20px;
+    border-color: #5D5FeF;
+    background-color: none;
+    background-color: #999AF5;
+    color: #5D5FeF;
+}
+
+.description_container {
+    display: flex;
+}
+
+.heading {
+    font-size: 40px;
+
+}
+
+.description_left {
+    width: 50%;
+}
+
+.description_right {
+
+    width: 50%;
+}
+
+#car {
+    width: 550px;
+}
+
+.card img {
+    height: 80%;
+    width: 100%;
+}
+
+.numbers {
+    background-color: #5D5FeF;
+    width: 90%;
+    margin-left: 5%;
+    height: 180px;
+    /* z-index: 6; */
+    position: relative;
+    top: 60px;
+    border-radius: 20px;
+    display: flex;
+    padding-top: 2%;
+
+}
+
+.services {
+
+
+    height: 600px;
+    z-index: 3;
+    color: black;
+
+
+
+}
+
+.services h1 {
+    padding-top: 100px;
+}
+
+.cards_description {
+    display: flex;
+    margin-bottom: 30px;
+
+
+    width: 90%;
+    margin-left: 5%;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+
+}
+
+.description_popup_btn {
+    height: 50px;
+    margin-left: 70%;
+    background-color: #5D5FeF;
+    color: white;
+    border-radius: 20px;
+}
+.description_popup_btn:hover {
+    height: 50px;
+    margin-left: 70%;
+    background-color: #999AF5;
+    color: white;
+    border-radius: 20px;
+}
+
+
+
+.cards_description>.card {
+
+    /* box-shadow: 0 6px 8px 0 rgba(0,0,0,0.2); */
+    /* transition: 0.3s; */
+    width: 280px;
+    height: 280px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: x-large;
+    /* position: absolute;
+    left: 0; */
+
+
+
+}
+
+.cards_description :hover {
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    /* background-color: #5D5FeF;
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: x-large; */
+
+}
+
+
+
+
+.numbers .num1 {
+    width: 20%;
+    color: white;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+.num1 h2 {
+    display: flex;
+    margin-left: 100px;
+}
+
+
+
+/* .description button{
+    width: 200px;
+    color: #5D5FeF;
+    border-radius: 20px;
+    height: 50px;
+} */
+
+
+/*Some Changes in cards*/
+.des_cards{
+    width: 90%;
+    display: grid;
+    margin-left:5%;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5%;
+}
+.des_card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    margin-left: 3%;
+    height: 100%;
+    padding: 5px;
+}
+
+.des_card:hover {
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+    border: 5px rgba(0, 0, 0, 0.2);
+    margin-left: 2%;
+    cursor: pointer;
+    width: 110%;
+    height: 105%;
+}
+
+.des_container {
+    /* padding: 2px 16px; */
+    padding-top: 20px;
+}
+.des_popup_items{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.des_outer_container{
+    border: 2px solid gray;
+    width: 90%;
+    margin-left: 5%;
+    height: 100%;
+    display: flex;
+    padding: 30px; 
+
+}
+
+.des_outer_container > img{
+    width: 23%;
+    margin-left: 2%;
+    margin-right: 5%;
+    height: 80%;
+    border: 2px solid gray; 
+
+}
+/* for responsiveness */
+
+
+@media only screen and (max-width: 1064px) {
+
+    .des_cards{
+        width: 90%;
+        display: grid;
+        margin-left:5%;
+        grid-template-columns: auto auto auto;
+        grid-gap: 5%;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .des_cards{
+        width: 90%;
+        display: grid;
+        margin-left:5%;
+        grid-template-columns: auto auto;
+        grid-gap: 5%;
+    }
+    .des_outer_container{
+        border: 2px solid gray;
+        width: 90%;
+        margin-left: 5%;
+        height: fit-content;
+        display: block;
+        padding: 40px; 
+    
+    }
+    .des_outer_container > img{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+
+    .des_cards{
+        width: 90%;
+        display: grid;
+        margin-left:5%;
+        grid-template-columns: auto;
+        grid-gap: 5%;
+    }
+}
